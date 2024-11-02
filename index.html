@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar type 1</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font awasome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .museomoderno {
+            font-family: "MuseoModerno", sans-serif;
+
+        }
+
+        .poppins {
+  font-family: "Poppins", sans-serif;
+
+}
+ 
+
+.countdown {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-number {
+  font-weight: bold;
+}
+
+
+.dm-sans {
+            font-family: "DM Sans", sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="bg-[#121316] text-white">
+        <div class="container mx-auto px-2 py-2 flex justify-between items-center">
+        <div class="space-x-2 ">
+            <div class="countdown ">
+                <div class="countdown-item poppins">
+                  <span class="countdown-number text-base font-medium">03</span>
+                  <span class="countdown-text text-sm font-light">d</span>
+                </div> :
+                <div class="countdown-item poppins">
+                  <span class="countdown-number text-base font-medium">07</span>
+                  <span class="countdown-text text-sm font-light">hrs</span>
+                </div>
+                 :
+                <div class="countdown-item poppins">
+                  <span class="countdown-number text-base font-medium">44</span>
+                  <span class="countdown-text text-sm font-light">min</span>
+                </div> :
+                <div class="countdown-item poppins">
+                  <span class="countdown-number text-base font-medium">12</span>
+                  <span class="countdown-text text-sm font-light">sec</span>
+                </div>
+              </div>
+        </div>
+       <div>
+        <h1 class="poppins text-white font-medium">Up to 50% Off: Unbeatable Sale</h1>
+
+       </div>
+          <div class="flex items-center gap-6">
+         <div class="flex items-center gap-4"><i class="fa-solid fa-store"></i> <h1 class="text-sm text-white poppins font-medium">Stores</h1></div>
+         
+         <div class="flex items-center gap-4"><i class="fa-solid fa-earth-americas"></i><h1 class="text-sm text-white poppins font-medium">English (US)</h1></div>
+          </div>
+        </div>
+      </header>
+
+
+        <!-- navbar -->
+    <header class="bg-gray-900 text-white">
+        
+
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+          
+            <nav class="hidden text-[#FFFFFFF0] md:flex space-x-6 dm-sans">
+             
+                <a href="">Man</a>
+             
+                <a href="">Women</a>
+            >
+                <a href="">Kids</a>
+            
+                <a href="">Kids</a>
+            </nav>
+
+            <a href="#" class="text-2xl font-bold museomoderno">WE SHOP</a>
+            <div class="flex items-center gap-2">
+                <div class="flex items-center">
+                    <div
+                        class="w-10 h-10 rounded-full bg-gray-800 border border-white flex items-center justify-center">
+                        <i class="fa-solid fa-search text-white"></i>
+                    </div>
+                    <div class="w-0.5 h-7 bg-[#969696] mx-4"></div>
+                    <div
+                        class="w-10 h-10 rounded-full bg-gray-800 border border-white flex items-center justify-center">
+                        <i class="fa-solid fa-user text-white"></i>
+                    </div>
+                    <div class="w-0.5 h-7 bg-[#969696] mx-4"></div>
+                    <div
+                        class="w-10 h-10 rounded-full bg-gray-800 border border-white flex items-center justify-center">
+                        <i class="fa-solid fa-bag-shopping text-white"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
